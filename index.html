@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List - exercise</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">To do list</div>
+        <div class="content">
+            <div class="section">
+                <div class="section-title">📋My tasks</div>
+                <div class="input-section">
+                    <input type="text" id="task-input" class="input-field" placeholder="Введите задачу...">
+                    <button id="add-btn" class="btn-add">Add</button>
+                </div>
+                <ul id="task-list">
+                    <div class="empty-state">No tasks. Add one!</div>
+                </ul>
+            </div>
+
+            <div class="section exercise-section">
+                <div class="section-title"> Exercise generator</div>
+                <button id="generate-btn" class="btn-generate">Generate exercise</button>
+                <div class="exercise-display" id="exercise-display">
+                    Click the button to generate the exercise
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">Made by Adelia</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
