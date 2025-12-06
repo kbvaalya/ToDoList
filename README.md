@@ -17,7 +17,7 @@ To-Do List <br>
 - LocalStorage API <br>
 
 Демонстрация <br>
-https://kbvaalya.github.io/todolist/  <br>
+https://kbvaalya.github.io/ToDoList/  <br>
 
 Структура проекта <br>
 index.html  <br>
